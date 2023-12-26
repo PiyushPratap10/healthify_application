@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:health_application/screens/login_screen.dart';
 import 'package:health_application/screens/tabs.dart';
 
 void main() {
@@ -10,9 +11,9 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: const TabsScreen(),
+      home: LoginScreen(),
     );
   }
 }
